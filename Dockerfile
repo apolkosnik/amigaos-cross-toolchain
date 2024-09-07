@@ -1,7 +1,7 @@
 # To build and publish image run following commands:
-# > docker build -t cahirwpz/amigaos-cross-toolchain:latest .
+# > docker build -t apolkosnik/amigaos-cross-toolchain:latest .
 # > docker login
-# > docker push cahirwpz/amigaos-cross-toolchain:latest
+# > docker push apolkosnik/amigaos-cross-toolchain:latest
 
 FROM debian:jessie
 
