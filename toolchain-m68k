@@ -26,7 +26,7 @@ URLS = \
     '990529/bin/libamiga-bin.tgz', 'libamiga.tar.gz'),
    ('ftp://ftp.exotica.org.uk/mirrors/geekgadgets/amiga/m68k/snapshots/' +
     '990529/src/libm-5.4-src.tgz', 'libm-5.4.tar.gz'),
-   ('https://downloads.sf.net/project/amiga/ixemul.library/48.2/ixemul-src.lha',
+   ('http://downloads.sf.net/project/amiga/ixemul.library/48.2/ixemul-src.lha',
     'ixemul-48.2.lha'),
    ('http://server.owl.de/~frank/tags/vasm1_8d.tar.gz', 'vasm.tar.gz'),
    ('http://server.owl.de/~frank/tags/vlink0_16a.tar.gz', 'vlink.tar.gz'),
