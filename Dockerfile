@@ -20,7 +20,7 @@ RUN apt-get install -y --force-yes --no-install-recommends \
             git-core make gettext patch bison flex gperf ca-certificates \
             gcc g++ gcc-multilib libc6-dev libncurses-dev \
             python2.7 libpython2.7-dev python-setuptools subversion
-RUN git clone https://github.com/cahirwpz/amigaos-cross-toolchain.git && \
+RUN git clone https://github.com/apolkosnik/amigaos-cross-toolchain.git && \
     cd amigaos-cross-toolchain && \
       ./toolchain-m68k --prefix=/usr/local build && \
       ./toolchain-m68k --prefix=/usr/local test && \
