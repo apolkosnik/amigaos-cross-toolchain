@@ -21,7 +21,7 @@ URLS = \
    'https://ftp.gnu.org/gnu/texinfo/texinfo-4.12.tar.gz',
    'https://ftp.gnu.org/gnu/automake/automake-1.15.tar.gz',
    'https://mirrors.slackware.com/slackware/slackware-4.0/source/d/flex/flex-2.5.4a.tar.gz',
-   ('http://www.haage-partner.de/download/AmigaOS/NDK39.lha', 'NDK_3.9.lha'),
+   ('https://fsck.technology/software/Commodore/Amiga/Amiga%20Applications/AmigaOS%203.9%20Native%20Development%20Kit/NDK39.lha, 'NDK_3.9.lha'),
    ('ftp://ftp.exotica.org.uk/mirrors/geekgadgets/amiga/m68k/snapshots/' +
     '990529/bin/libamiga-bin.tgz', 'libamiga.tar.gz'),
    ('ftp://ftp.exotica.org.uk/mirrors/geekgadgets/amiga/m68k/snapshots/' +
