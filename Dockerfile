@@ -13,7 +13,7 @@ RUN echo "deb http://archive.debian.org/debian-security jessie/updates main" >> 
 
 RUN echo "deb http://archive.debian.org/debian jessie main" >> /etc/apt/sources.list.d/jessie.list
 
-#RUN apt-get -o Acquire::Check-Valid-Until=false update
+RUN apt-get -o Acquire::Check-Valid-Until=false update
 
 RUN apt-get -q update && apt-get upgrade -y
 RUN apt-get install -y --force-yes --no-install-recommends \
